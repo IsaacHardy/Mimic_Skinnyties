@@ -1,0 +1,66 @@
+body {
+  /*border: 1px solid black;*/
+}
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*DIV Orange */
+.orange {
+  width: 100%;
+  background-color: #FA6938;
+}
+
+.orange ul {
+  height: 75px;
+  margin: 0px;
+  position: relative;
+  top: 7px;
+}
+
+.orange li {
+  display: inline-block;
+  color: #FFFFFF;
+  text-shadow: 1px 1px #CA5423;
+  font-size: 25px;
+  padding: 10px 15px;
+  top: 1px;
+  margin-left: 25px;
+
+}
+.orange li:hover {
+  display: inline-block;
+  background-color: #C95323;
+  border-radius: 7px;
+}
+
+.orange span {
+  font-size: 20px;
+}
+
+/*DIV Logo and Links*/
+
+ .logo {
+  float: left;
+  padding-left: 80px;
+}
+
+.links, .links li {
+  display: inline-block;
+  font-size: 50px;
+  padding: 
+}
+
+/*DIV Form*/
+
+.form {
+  float: right;
+}
+
+.form li {
+  display: inline-block;
+}
