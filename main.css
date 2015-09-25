@@ -20,6 +20,8 @@ img {
   margin: 0px;
   position: relative;
   top: 7px;
+  margin-left: 170px;
+
 }
 
 .orange li {
@@ -42,11 +44,23 @@ img {
   font-size: 20px;
 }
 
+/*Bottom Border*/
+.one {
+  border-image-source: url("images/perforated-bottom@2x.png");
+  padding-bottom: 45px;
+  border-image-slice: 10 27 10 16;
+  border-image-width: 0px 0px 10px 0px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat stretch;
+  position: relative;
+}
+
 /*DIV Logo and Links*/
 
  .logo {
   float: left;
   padding-left: 80px;
+  margin-left: 140px;
 }
 
 .links, .links li {
@@ -54,6 +68,26 @@ img {
   font-size: 50px;
   padding: 
 }
+.links ul {
+  margin-top: 90px;
+  margin-left: 95px;
+
+}
+
+/*Little Grey Triangles*/
+.links li:after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 7px 0 7px;
+  border-color: #E0E0E0 transparent transparent transparent;
+  content: "";
+  position: absolute;
+  bottom: 75px;
+  margin-left: -88px;
+}
+
+
 
 /*DIV Form*/
 
@@ -61,6 +95,25 @@ img {
   float: right;
 }
 
+.form ul {
+  text-align: right;
+}
+
 .form li {
   display: inline-block;
+ 
 }
+.form.cart, .form.register {
+  display: inline-block;
+}
+
+
+
+
+
+/*Cart Box*/
+
+.cart {
+  border: 1px solid grey;
+}
+
