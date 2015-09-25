@@ -28,7 +28,7 @@ img {
   display: inline-block;
   color: #FFFFFF;
   text-shadow: 1px 1px #CA5423;
-  font-size: 25px;
+  font-size: 30px;
   padding: 10px 15px;
   top: 1px;
   margin-left: 25px;
@@ -41,7 +41,7 @@ img {
 }
 
 .orange span {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /*Bottom Border*/
@@ -66,7 +66,7 @@ img {
 .links, .links li {
   display: inline-block;
   font-size: 50px;
-  padding: 
+  padding-right: 50px;
 }
 .links ul {
   margin-top: 90px;
@@ -93,27 +93,111 @@ img {
 
 .form {
   float: right;
+  margin-right: 475px;
 }
 
-.form ul {
+.form-text {
   text-align: right;
+  padding-top: 15px;
+  margin-bottom: -25px;
 }
 
-.form li {
+.form-text p {
   display: inline-block;
- 
+  padding-left: 25px;
+  font-size: 23px;
 }
-.form.cart, .form.register {
+
+.form-two-cart, .form-two-search {
   display: inline-block;
 }
 
+.form-two-cart {
+  width: 200px;
+  height: 75px;
+  text-align: center;
+}
+
+.form-two p {
+  margin: 0;
+}
+
+.form-two-cart {
+  display: inline-block;
+  font-size: 30px;
+}
+input {
+  width: 350px;
+  height: 60px;
+}
+
+/*SPRITES*/
+
+.form-two-cart-pic {
+  background: url('images/sprite@2x.png') no-repeat -45px -1px;
+  background-size: 400px 200px;
+  width: 14px;
+  height: 12px;
+}
+
+.point {
+  background: url('images/sprite@2x.png') no-repeat -15px 0;
+  background-size: 400px 200px;
+  width: 13px;
+  height: 13px;
+}
 
 
 
 
 /*Cart Box*/
 
-.cart {
+.form-two-cart {
   border: 1px solid grey;
+  display: inline-block;
 }
 
+/*DIV Tie Picture*/
+
+.ties {
+  background-color: #F4F4F4;
+  height: 850px;
+}
+
+.ties ul {
+  display: inline-block;
+  margin-top: -4px;
+  text-align: center;
+  padding-left: 50px;
+}
+
+.ties-full {
+  margin-left: 340px;
+}
+
+.ties-full img {
+  width: 170px;
+}
+
+li.ties-full-text {
+  font-size: xx-large;
+  padding-top: 30px;
+}
+
+.ties-full p {
+  font-size: 130px;
+}
+
+/*Three Image DIV*/
+
+.three, .three-bow, .three-pocket, .three-tie {
+  display: inline-block;
+}
+
+.seperate-text {
+  text-align: center;
+}
+
+.three {
+  
+}
