@@ -162,6 +162,7 @@ input {
 .ties {
   background-color: #F4F4F4;
   height: 850px;
+  border-bottom: 1px solid #EBEBEB;
 }
 
 .ties ul {
@@ -190,14 +191,56 @@ li.ties-full-text {
 
 /*Three Image DIV*/
 
-.three, .three-bow, .three-pocket, .three-tie {
+.three-images-bow, .three-images-pocket, .three-images-tie {
   display: inline-block;
+  padding-right: 35px;
+}
+
+.three-images-bow img, .three-images-pocket img, .three-images-tie img{
+  width: 750px;
+  border: 1px solid #EEEEEE;
+}
+
+.three-images-bow p, .three-images-pocket p, .three-images-tie p {
+  position: absolute;
+  top: 1280px;
+  font-weight: bold;
+  font-size: 50px;
+
+}
+
+.three-images-bow p {
+  left: 730px;
+}
+.three-images-pocket p {
+  text-align: right;
+  left: 1540px;
+}
+.three-images-tie p {
+  left: 2340px;
 }
 
 .seperate-text {
   text-align: center;
+  margin-top: 200px;
 }
 
-.three {
-  
+.seperate-text p {
+  font-size: 70px;
+  font-weight: 100;
+  margin-bottom: 30px;
+
 }
+
+.seperate-text a {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 100;
+
+}
+
+.three-images {
+  text-align: center;
+  margin-top: 110px; 
+}
+
