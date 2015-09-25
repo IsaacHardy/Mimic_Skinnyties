@@ -13,14 +13,11 @@ img {
 .orange {
   width: 100%;
   background-color: #FA6938;
+  height: 43px;
 }
 
 .orange ul {
-  height: 75px;
-  margin: 0px;
-  position: relative;
-  top: 7px;
-  margin-left: 170px;
+  margin: 0px 85px;
 
 }
 
@@ -28,28 +25,27 @@ img {
   display: inline-block;
   color: #FFFFFF;
   text-shadow: 1px 1px #CA5423;
-  font-size: 30px;
-  padding: 10px 15px;
-  top: 1px;
-  margin-left: 25px;
+  padding: 5px 7px;
+  margin-top: 8px;
+
 
 }
 .orange li:hover {
   display: inline-block;
   background-color: #C95323;
-  border-radius: 7px;
+  border-radius: 3px;
 }
 
 .orange span {
-  font-size: 25px;
+  font-size: 14px;
 }
 
 /*Bottom Border*/
 .one {
   border-image-source: url("images/perforated-bottom@2x.png");
-  padding-bottom: 45px;
+  padding-bottom: 22px;
   border-image-slice: 10 27 10 16;
-  border-image-width: 0px 0px 10px 0px;
+  border-image-width: 0px 0px 6px 0px;
   border-image-outset: 0px 0px 0px 0px;
   border-image-repeat: repeat stretch;
   position: relative;
@@ -59,32 +55,50 @@ img {
 
  .logo {
   float: left;
-  padding-left: 80px;
-  margin-left: 140px;
+  width: 140px;
+  margin-left: 122px;
+
+}
+.links {
+  margin-left: 40px;
 }
 
 .links, .links li {
   display: inline-block;
-  font-size: 50px;
-  padding-right: 50px;
+  font-size: 28px;
+  padding-top: 10px;
+  padding-right: 20px;
+  font-weight: 100;
 }
-.links ul {
-  margin-top: 90px;
-  margin-left: 95px;
 
-}
 
 /*Little Grey Triangles*/
 .links li:after {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 7px 7px 0 7px;
+  border-width: 4px 4px 0 4px;
   border-color: #E0E0E0 transparent transparent transparent;
   content: "";
   position: absolute;
-  bottom: 75px;
+  bottom: 42px;
   margin-left: -88px;
+}
+
+.links .trione:after {
+  left: 487px;
+}
+.links .tritwo:after {
+  left: 614px;
+}
+.links .trithree:after {
+  left: 710px;
+}
+.links .trifour:after {
+  left: 812px;
+}
+.links .trifive:after {
+  left: 923px;
 }
 
 
@@ -93,42 +107,42 @@ img {
 
 .form {
   float: right;
-  margin-right: 475px;
+  padding-top: 6px;
+  margin-right: 90px;
 }
 
 .form-text {
   text-align: right;
-  padding-top: 15px;
-  margin-bottom: -25px;
 }
 
 .form-text p {
   display: inline-block;
-  padding-left: 25px;
-  font-size: 23px;
+  padding-left: 10px;
+  font-size: 12px;
+  color: #969696;
 }
 
-.form-two-cart, .form-two-search {
+.form-two-cart, .form-two-search, .form-two-cart-pic, .form-two-cart p {
   display: inline-block;
 }
 
 .form-two-cart {
-  width: 200px;
-  height: 75px;
+  width: 100px;
+  height: 35px;
   text-align: center;
 }
 
 .form-two p {
   margin: 0;
+  color: #646464;
 }
 
-.form-two-cart {
-  display: inline-block;
-  font-size: 30px;
-}
 input {
-  width: 350px;
-  height: 60px;
+  width: 165px;
+  height: 25px;
+  border-radius: 2px;
+  border: 1px solid #DCDCDC;
+
 }
 
 /*SPRITES*/
@@ -161,32 +175,35 @@ input {
 
 .ties {
   background-color: #F4F4F4;
-  height: 850px;
   border-bottom: 1px solid #EBEBEB;
+  margin: -3px;
+
+}
+
+.ties img {
+ width: 85px;
 }
 
 .ties ul {
   display: inline-block;
-  margin-top: -4px;
+  margin-top: -1px;
   text-align: center;
-  padding-left: 50px;
+  padding-left: 30px;
+}
+
+
+li.ties-full-text {
+  padding-top: 15px;
 }
 
 .ties-full {
-  margin-left: 340px;
-}
-
-.ties-full img {
-  width: 170px;
-}
-
-li.ties-full-text {
-  font-size: xx-large;
-  padding-top: 30px;
+  margin-left: 80px;
 }
 
 .ties-full p {
-  font-size: 130px;
+  font-size: 65px;
+  margin-top: 65px;
+  margin-left: 35px;
 }
 
 /*Three Image DIV*/
@@ -197,36 +214,36 @@ li.ties-full-text {
 }
 
 .three-images-bow img, .three-images-pocket img, .three-images-tie img{
-  width: 750px;
   border: 1px solid #EEEEEE;
+  width: 380px;
 }
 
 .three-images-bow p, .three-images-pocket p, .three-images-tie p {
   position: absolute;
-  top: 1280px;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 24px;
+  top: 662px;
 
 }
 
 .three-images-bow p {
-  left: 730px;
+  left: 334px;
 }
 .three-images-pocket p {
   text-align: right;
-  left: 1540px;
+  left: 768px;
 }
 .three-images-tie p {
-  left: 2340px;
+  left: 1188px;
 }
 
 .seperate-text {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 85px;
 }
 
 .seperate-text p {
-  font-size: 70px;
+  font-size: 38px;
   font-weight: 100;
   margin-bottom: 30px;
 
@@ -234,13 +251,13 @@ li.ties-full-text {
 
 .seperate-text a {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 18px;
   font-weight: 100;
 
 }
 
 .three-images {
   text-align: center;
-  margin-top: 110px; 
+  margin-top: 60px; 
 }
 
