@@ -108,7 +108,7 @@ img {
 .form {
   float: right;
   padding-top: 6px;
-  margin-right: 90px;
+  margin-right: 110px;
 }
 
 .form-text {
@@ -126,25 +126,74 @@ img {
   display: inline-block;
 }
 
-.form-two-cart {
-  width: 100px;
-  height: 35px;
-  text-align: center;
-}
-
 .form-two p {
   margin: 0;
   color: #646464;
+  margin-top: 9px;
+  margin-left: 3px;
+  font-size: 15px;
+}
+
+
+
+/*Cart&Search Box*/
+
+.form-two-cart {
+  border: 1px solid #E1E1E1;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  border-radius: 2px;
 }
 
 input {
-  width: 165px;
+  width: 135px;
   height: 25px;
   border-radius: 2px;
   border: 1px solid #DCDCDC;
+  margin-left: 15px;
+  padding-left: 30px;
+  box-shadow: 0px 0px 0px 4px #f4f4f4;
 
 }
 
+
+.form-two-zero {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: #C8C8C8;
+  position: relative;
+  border-radius: 3px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.form-two-zero:before {
+  content:"";
+  position: absolute;
+  right: 100%;
+  top: 7px;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-right: 5px solid #C8C8C8;
+  border-bottom: 4px solid transparent;
+}
+
+.form-two-zero p {
+  color: #F5F5F5;
+  margin-top: 3px;
+  margin-left: -1px;
+}
+
+.point {
+  position: absolute;
+  top: 56px;
+  right: 255px;
+}
 /*SPRITES*/
 
 .form-two-cart-pic {
@@ -164,12 +213,8 @@ input {
 
 
 
-/*Cart Box*/
 
-.form-two-cart {
-  border: 1px solid grey;
-  display: inline-block;
-}
+
 
 /*DIV Tie Picture*/
 
@@ -197,7 +242,7 @@ li.ties-full-text {
 }
 
 .ties-full {
-  margin-left: 80px;
+  margin-left: 145px;
 }
 
 .ties-full p {
@@ -210,7 +255,7 @@ li.ties-full-text {
 
 .three-images-bow, .three-images-pocket, .three-images-tie {
   display: inline-block;
-  padding-right: 35px;
+  padding-right: 20px;
 }
 
 .three-images-bow img, .three-images-pocket img, .three-images-tie img{
@@ -253,6 +298,7 @@ li.ties-full-text {
   text-decoration: none;
   font-size: 18px;
   font-weight: 100;
+  color: #029DFF;
 
 }
 
