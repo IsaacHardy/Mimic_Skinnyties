@@ -236,7 +236,7 @@ img {
 .ties {
   background-color: #F4F4F4;
   border-bottom: 1px solid #EBEBEB;
-  margin: -3px;
+  
 
 }
 
@@ -246,9 +246,9 @@ img {
 
 .ties ul {
   display: inline-block;
-  margin-top: -1px;
+  margin-top: -5px;
   text-align: center;
-  padding-left: 30px;
+  padding-left: 25px;
 }
 
 
@@ -257,7 +257,7 @@ li.ties-full-text {
 }
 
 .ties-full {
-  margin-left: 145px;
+  text-align: center;
 }
 
 .ties-full p {
