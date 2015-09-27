@@ -1,5 +1,5 @@
 body {
-  /*border: 1px solid black;*/
+  font-family: 'Exo', sans-serif;
 }
 ul {
   list-style: none;
@@ -286,7 +286,7 @@ li.ties-full-text {
   position: absolute;
   font-weight: bold;
   font-size: 24px;
-  top: 662px;
+  top: 685px;
 
 }
 
@@ -317,7 +317,7 @@ li.ties-full-text {
 .seperate-text a {
   text-decoration: none;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 400;
   color: #029DFF;
 
 }
@@ -413,6 +413,8 @@ li.ties-full-text {
 /*Column Four*/
 .top-text {
   margin-top: 0;
+  font-size: 14px;
+
 }
 
 /*FOOOTER*/
@@ -462,7 +464,7 @@ li.list-head-one, li.list-head-two, li.list-head-three, li.list-head-four {
   border-radius: 3px;
   border: 1px solid #96A3B2;
   position: absolute;
-  top: 1620px;
+  top: 1642px;
   right: 120px;
 }
 
