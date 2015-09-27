@@ -269,7 +269,12 @@ li.ties-full-text {
 /*Three Image DIV*/
 
 .three {
-  padding-bottom: 90px;
+  padding-bottom: 80px;
+  border-image-source: url("images/hatch-light@2x.png");
+  border-image-slice: 0 0 14 0;
+  border-image-width: 0px 0px 8px 0px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat stretch;
 }
 
 .three-images-bow, .three-images-pocket, .three-images-tie {
@@ -336,7 +341,7 @@ li.ties-full-text {
     display: inline-flex;
     padding-left: 90px;
     padding-right: 75px;
-    margin-top: 32px;
+    margin-top: 25px;
     padding-bottom: 35px;
     border-image-source: url("images/perforated-bottom@2x.png");
     border-image-slice: 10 27 10 16;
