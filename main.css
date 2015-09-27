@@ -334,17 +334,22 @@ li.ties-full-text {
     font-weight: inherit;
     text-align: center;
     display: inline-flex;
-    margin-left: 90px;
+    padding-left: 90px;
+    padding-right: 75px;
     margin-top: 32px;
+    padding-bottom: 35px;
+    border-image-source: url("images/perforated-bottom@2x.png");
+    border-image-slice: 10 27 10 16;
+    border-image-width: 0px 0px 6px 0px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: repeat stretch;
+
 }
 
 .column-one, .column-two, .column-three, .column-four {
   display: inline-block;
   text-align: left;
-  padding-right: 45px;
-}
-
-.column-one, .column-two, .column-three, .column-four {
+  padding-right: 35px;
   width: 265px;
 
 }
@@ -360,6 +365,7 @@ li.ties-full-text {
   border: 1px solid #EDECED;
   margin-top: -7px;
   margin-bottom: 4px;
+  width: 255px;
 }
 
 .column-two p, .column-three p {
@@ -408,3 +414,103 @@ li.ties-full-text {
 .top-text {
   margin-top: 0;
 }
+
+/*FOOOTER*/
+
+.footer {
+  background-color: #F4F4F4;
+  margin-top: -3px;
+  height: 265px;
+}
+
+.col-one, .col-two, .col-three, .col-four {
+  display: inline-flex;
+  margin-top: 18px;
+}
+.col-one {
+  margin-left: 90px;
+}
+
+.col-one ul {
+  padding-left: 0;
+}
+
+.copyright p {
+  margin-left: 90px;
+  margin-top: 26px;
+}
+
+.copyright p > span {
+  padding-left: 20px;
+}
+
+.footer li {
+  padding-bottom: 4px;
+  color: #939393;
+}
+
+li.list-head-one, li.list-head-two, li.list-head-three, li.list-head-four {
+  padding-bottom: 8px;
+  color: black;
+  font-weight: bold;
+}
+
+.footer-box {
+  width: 350px;
+  height: 136px;
+  background-color: #A2AFC0;
+  border-radius: 3px;
+  border: 1px solid #96A3B2;
+  position: absolute;
+  top: 1620px;
+  right: 120px;
+}
+
+
+.title-text {
+  font-size: 26px;
+  font-weight: 100;
+}
+
+.help-text {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.numbers-text {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.footer-box p {
+  display: inline-block;
+  color: white;
+  font-weight: 100;
+  margin-left: 18px;
+  line-height: 26px;
+  margin-bottom: -2px;
+}
+.footer-box button {
+  background-color: #33A1FF;
+  border: 1px solid #1A8ADE;
+  color: white;
+  border-radius: 3px;
+  width: 115px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 100;
+  margin-left: 12px;
+
+}
+
+.copyright p {
+  font-size: 12px;
+  color: #949494;
+}
+
+.gravity {
+    border-bottom: 1px dotted #949494;
+    color: #949494;
+    text-decoration: none;
+}
+
