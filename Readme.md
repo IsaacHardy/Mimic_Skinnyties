@@ -1,6 +1,6 @@
 #Skinny Ties
 
-####In this project, I was given a webpage image and was asked to mimic the image to the pixel. 
+####In this project, I was given a webpage image ([LINK HERE](https://raw.githubusercontent.com/tiy-atl-js-sept-2015/Assignments/master/Assignment-04*/Hard-Mode/layouts/layout.png)) and was asked to mimic the image to the pixel. 
 
 ####Throughout this project, I was challenged to solve postioning, sizing, and formating issues. I first decided to divide the page into specfic sections that I placed into numerous DIV tags. 
 
