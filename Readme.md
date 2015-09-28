@@ -2,7 +2,7 @@
 
 ####In this project, I was given a webpage image and was asked to mimic the image to the pixel. 
 
-####Throughout this project, I was challenged to solve postioning, sizing, and formating issues. I first decided to divide the page into specfic sections that I placed into numerous "<DIV>". 
+####Throughout this project, I was challenged to solve postioning, sizing, and formating issues. I first decided to divide the page into specfic sections that I placed into numerous DIV tags. 
 
 ####After the inital sub-sectioning of the page, I decided to tackle each section individually; first creating divisions within the section, and then styling those sections to meet the original image.
 
